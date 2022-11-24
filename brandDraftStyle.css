@@ -1,0 +1,367 @@
+@media only screen and (max-device-width: 480px) {
+        .mobile_device_480px{display: block;}       
+        .col-sm-4{display: none;}
+        .col-sm-8{width:100%; margin:auto;};
+}
+
+
+.Header-Content{
+color:  black;
+display: flex;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+height: 150px;
+justify-content: space-between;
+line-height: 20px;
+margin:auto;
+margin-top: 0px;
+max-width: 1280px;
+padding-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 0px;
+position: relative;
+text-align: center;
+width: 100%;
+}
+
+.header-left{
+width:500px;
+height:auto;
+}
+
+.header-left-functions{
+list-style:none;
+display:flex;
+flex-direction:row;
+}
+
+
+.header-right{
+width:500px;
+height:auto;
+}
+
+.dropdown-item{
+  font-size: 16px;
+}
+
+.navbar-inverse {
+  background-color:rgb(65, 194, 213);
+  border-style: none;
+}
+
+.navbar-inverse .nav-pills>li>a {
+  color:black;
+  font-size: 18px;
+}
+
+
+
+.Header-Content .nav-pills>li>a{
+  color: black;
+}
+
+.container-fluid{
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.center-pills { display: inline-block; }
+
+
+.Black-Font{
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-top:40px;
+}
+
+.Black-Font-small{
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+margin-top:20px;
+}
+
+.Black-Font-Italic{
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+margin-top:20px;
+}
+
+
+.join-us>ul>li>a{
+color:black;
+font-size: 14px;
+}
+
+.discover{
+color:rgb(65, 194, 213);
+margin-top:50px;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1.5px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.social{
+list-style:none;
+display:flex;
+flex-direction:row;
+margin-top:20px;
+margin-left: 0px;
+}
+
+.instagram{
+margin-left: 0px;
+}
+
+.facebook{
+margin-left: 20px;
+}
+
+.twitter{
+margin-left: 20px;
+}
+
+.sign-up{
+border-radius: 5px;
+padding-left: 0px;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+margin-top:20px;
+}
+
+.sign-up-form{
+display:flex;
+flex-direction:column;
+margin-top:20px;
+}
+
+input[type=text], select {
+  width: 60%;
+  height:70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 60%;
+  height:70%;
+  background-color: rgb(65, 194, 213);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(184, 185, 186);
+}
+
+.instruction{
+  font-size: 20px;
+  font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+  text-align: center;
+}
+
+.instruction:hover{
+  color: rgb(65, 194, 213);
+}
+
+.note{
+  font-size: 16px;
+  font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+  text-align: center;
+}
+
+.note:hover{
+  color: rgb(65, 194, 213);
+}
+
+.product-name{
+  font-size: 16px;
+}
+
+.price{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+SELECT {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 50px;
+  width: 140px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.product-show{
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction:row;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+height: auto;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+position: relative;
+transform: matrix(1, 0, 0, 1, 0, 0);
+width: 100%;
+margin:50px;
+}
+
+.product-item{
+text-align:center;
+width:50%;
+}
+
+.description{
+width:80%;
+padding-top:10px;
+margin:auto;
+text-align:left;
+margin-bottom: 20px;
+}
+
+.action-tocart{
+align-items: flex-start;
+appearance: button;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: auto;
+border-bottom-color: rgb(199, 200, 199);
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(199, 200, 199);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(199, 200, 199);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(199, 200, 199);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+color: rgb(0, 0, 0);
+cursor: pointer;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 12px;
+font-style: normal;
+font-variant-caps: normal;
+font-weight: 600;
+height: 50px;
+min-width: 140px;
+padding-bottom: 10px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 10px;
+text-align: center;
+text-indent: 0px;
+text-shadow: none;
+text-transform: uppercase;
+vertical-align: middle;
+width: 140px;
+word-spacing: 0px;
+writing-mode: horizontal-tb;
+}
+
+.bottom-content{
+background-attachment: scroll;
+background-clip: border-box;
+background-color: white;
+border-top: rgb(65, 194, 213);
+border-top-style: solid;
+border-top-width: 5px;
+background-size: auto;
+display: block;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+height: 100%;
+margin-top: 50px;
+overflow-x: hidden;
+padding-bottom: 25px;
+width: 100%;
+}
+
+
+.foot-columns{
+padding-top: 35px;
+display:flex;
+font-size:14px;
+font-style:normal;
+font-weight:400;
+font-family: Calluna, "Times New Roman", Times, Georgia, serif;
+width : 80%;
+margin:auto;
+height:300px;
+flex-direction:row;
+color: rgb(255, 255, 255);
+}
+
+.foot-column-list{
+width:25%;
+display:flex;
+flex-direction:column;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+.column-list{
+display:inline-block;
+padding-left:0px;
+margin-top: 15px;
+list-style-image: none;
+list-style-type:none;
+list-style-position: outside;
+color: rgb(255, 255, 255);
+}
+
+.foot{
+color: black;
+font-size: 16px;
+margin:10px;
+}
+
+
